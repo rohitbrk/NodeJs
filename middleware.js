@@ -15,7 +15,6 @@ const checkAge = (req, res, next) => {
 };
 
 app.get("/api/test", checkAge, (req, res) => {
-  console.log("hey");
   res.json({ status: "ok" });
 });
 
