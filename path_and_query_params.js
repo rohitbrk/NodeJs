@@ -1,5 +1,6 @@
 import express from "express";
 
+const PORT = 5000;
 const app = express();
 
 app.get("/:admin", (req, res) => {
@@ -19,9 +20,10 @@ app.get("/:admin", (req, res) => {
 // 1,2,3
 // 10
 
-app.listen(3000, () => {
-  console.log("server is on");
+app.listen(PORT, () => {
+  console.log(`server is running on port ${PORT}`);
 });
+
 console.log(JSON.stringify({ b: "ram" }));
 
 // (async () => {
