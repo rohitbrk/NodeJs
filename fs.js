@@ -1,5 +1,6 @@
 // fs - File System
-// Using fs built-in module, we can create folders. Read or write to files.
+// Using fs built-in module, we can create folders. 
+// Read or write to files.
 
 const fs = require('fs');
 
