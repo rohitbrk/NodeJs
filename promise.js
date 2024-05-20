@@ -47,3 +47,5 @@ res();
 
 // promise.all() : if one of the promise fails, the entire event fails
 // promise.allSettled() : if one of the promise fails, only that specific promise's status will be shown rejected
+
+// promise.race(), promise.any() - refer mozilla docs
