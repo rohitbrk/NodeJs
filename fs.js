@@ -35,5 +35,6 @@ fs.rmdir(dir, err => {
   console.log(`${dir} is deleted`);
 });
 
+// const fs = require("fs").promises;
 
-
+// fs.readFile("test.js", "utf8").then((data) => console.log(data));
